@@ -198,6 +198,7 @@ function AdminDashboardContent() {
       <header className="bg-gray-900 border-b border-gray-700 px-4 py-3 flex items-center justify-between">
         <h1 className="font-black text-yellow-400 text-xl">🛡️ Admin</h1>
         <div className="flex items-center gap-4">
+          <Link to="/" className="text-sm bg-gray-700 hover:bg-gray-600 text-white px-3 py-1.5 rounded-lg transition-colors">← Main Screen</Link>
           <Link to="/questions" className="text-gray-400 hover:text-white text-sm">Questions</Link>
           <Link to="/ads" className="text-gray-400 hover:text-white text-sm">Ads</Link>
           <button onClick={logout} className="text-gray-400 hover:text-white text-sm underline">Sign Out</button>
